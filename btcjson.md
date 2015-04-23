@@ -22,3 +22,8 @@
 
 [func NewCmd(method string, args ...interface{}) (interface{}, error)]
 (http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#NewCmd)
+
+#### help.go
+
+[func GenerateHelp(method string, descs map[string]string, resultTypes ...interface{}) (string, error)]
+(http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#GenerateHelp)
