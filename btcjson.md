@@ -1,7 +1,7 @@
 
-#### cmdparse.go
+## Public methods broken down by file
 
-public methods
+#### cmdparse.go
 
 [func MarshalCmd(id interface{}, cmd interface{}) ([]byte, error)]
 (http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#MarshalCmd)
