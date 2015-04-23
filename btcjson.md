@@ -1,6 +1,17 @@
 
 ## Public methods broken down by file
 
+#### cmdinfo.go
+
+[func CmdMethod(cmd interface{}) (string, error)]
+(http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#CmdMethod)
+
+[func MethodUsageFlags(method string) (UsageFlag, error)]
+(http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#MethodUsageFlags)
+
+[func MethodUsageText(method string) (string, error)]
+(http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#MethodUsageText)
+
 #### cmdparse.go
 
 [func MarshalCmd(id interface{}, cmd interface{}) ([]byte, error)]
