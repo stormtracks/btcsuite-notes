@@ -4,6 +4,7 @@
 * rpcserver
 * rpcserverhelp
 * rpcwebsocket
+* server
 * btcjson/btcws/*
 
 ### Key files not related to btcd
