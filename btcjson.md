@@ -1,4 +1,11 @@
 
+### Package btcd use of btcjson
+
+* rpcserver
+* rpcserverhelp
+* rpcwebsocket
+* btcjson/btcws/*
+
 ## Public methods broken down by file
 
 #### cmdinfo.go
