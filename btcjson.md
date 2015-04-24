@@ -6,6 +6,17 @@
 * rpcwebsocket
 * btcjson/btcws/*
 
+### Key files not related to btcd
+
+* cmdinfo.go
+* cmdparse.go
+* error.go
+* help.go
+* helpers.go
+* jsonrpc.go
+* jsonrpcerr.go
+* register.go
+
 ## Public methods broken down by file
 
 #### cmdinfo.go
