@@ -61,7 +61,7 @@
 (http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#NewRPCError)
 
 [func (e RPCError) Error() string]
-(http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#RPCError)
+(http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#RPCError.Error)
 
 [func IsValidIDType(id interface{}) bool]
 (http://godoc.org/github.com/btcsuite/btcd/btcjson/v2/btcjson#IsValidIDType)
