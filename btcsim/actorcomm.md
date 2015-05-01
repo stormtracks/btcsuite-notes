@@ -20,7 +20,7 @@ Because each output of a particular transaction can only be spent once, the outp
 * simulateTx [goroutine only]
 
 **sendRawTransaction**
-is called by simulateTx, splitUtxos
+is called by simulateTx and splitUtxos
 
 
 ### comm.go
