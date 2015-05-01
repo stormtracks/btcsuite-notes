@@ -19,7 +19,7 @@ Because each output of a particular transaction can only be spent once, the outp
 * splitUtxos [goroutine only]
 * simulateTx [goroutine only]
 
-##### sendRawTransaction
+**sendRawTransaction**
 is called by simulateTx, splitUtxos
 
 
@@ -29,5 +29,5 @@ is called by simulateTx, splitUtxos
 * poolUtxos [goroutine only]
 * Communicate [goroutine only]
 
-##### getUtxo & getActor
+**getUtxo** & **getActor**
 are called by poolUxos
