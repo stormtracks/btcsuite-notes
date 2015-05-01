@@ -1,7 +1,7 @@
 
 Packages for btcsim are located
-(here)
-[http://godoc.org/github.com/btcsuite/btcsim?imports]
+[here]
+(http://godoc.org/github.com/btcsuite/btcsim?imports)
 
 ### btcd packages
 
