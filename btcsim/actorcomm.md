@@ -11,7 +11,7 @@ Because each output of a particular transaction can only be spent once, the outp
 [reference utxo]
 (https://bitcoin.org/en/developer-guide#block-chain-overview)
 
-*Notes about only the two core files actor and comm*
+*Notes about only the two core files actor and comm, all the methods listed here are called from within the file*
 
 ### actor.go
 
@@ -20,10 +20,8 @@ Because each output of a particular transaction can only be spent once, the outp
 * simulateTx [goroutine only]
 
 ##### sendRawTransaction
+is called by simulateTx, splitUtxos
 
-called by simulateTx, splitUtxos
-
-All of these methods in **actor** are called from within this file
 
 ### comm.go
 
@@ -32,7 +30,4 @@ All of these methods in **actor** are called from within this file
 * Communicate [goroutine only]
 
 ##### getUtxo & getActor
-
-called by poolUxos
-
-All of these methods in **comm** are called from within this file
+are called by poolUxos
