@@ -8,6 +8,8 @@ Notes about only the two core files actor and comm.
 * simulateTx
 * splitUtxos
 
+All of these methods in **actor** are called from within this file
+
 #### comm.go
 
 * Communicate
