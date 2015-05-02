@@ -18,4 +18,4 @@ and kill a cpu-mining btcd instance.
 
 #### Simulation
 
-Simulation is an array of actors, meaning it an array of Nodes.
+Simulation is an array of actors, meaning it is an array of Nodes.
