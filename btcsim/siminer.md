@@ -22,7 +22,7 @@ Then the notification handlers are called here:
 ```
 actor.go:	     ntfnHandlers := &rpc.NotificationHandlers{
 miner.go:	     ntfnHandlers := &rpc.NotificationHandlers{
-simulation.go:     ntfnHandlers := &rpc.NotificationHandlers{
+simulation.go:   ntfnHandlers := &rpc.NotificationHandlers{
 ```
 
 These are called in simulation.go and miner.go
