@@ -2,9 +2,9 @@
 #### AddrIndex
 
 This is an important high level concept which is supported by 3
-[database interface methods]
+[database interface]
 (http://godoc.org/github.com/btcsuite/btcd/database#Db)
-including :
+methods including :
 
 * UpdateAddrIndexForBlock
 * DeleteAddrIndex
