@@ -27,3 +27,9 @@ package database/ldb
 
 * InsertBlock
 * DropAfterBlockBySha
+
+* Sync
+* RollbackClose
+* Close
+* OpenDB
+* CreateDB
