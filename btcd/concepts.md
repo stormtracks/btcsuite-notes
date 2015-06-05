@@ -1,4 +1,15 @@
 
+#### AddrIndex
+
+This is an important high level concept which is supported by 3
+[database interface methods]
+(http://godoc.org/github.com/btcsuite/btcd/database#Db)
+including :
+
+* UpdateAddrIndexForBlock
+* DeleteAddrIndex
+* FetchAddrIndexTip
+
 #### ProcessBlock
 
 This is an important highlevel method which abstracts away alot of the lower
