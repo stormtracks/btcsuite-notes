@@ -1,6 +1,11 @@
 
 package database/ldb
 
+Location of
+[Interface Definition Methods]
+(http://godoc.org/github.com/btcsuite/btcd/database#Db)
+in the individual files
+
 #### block.go
 
 * ExistsSha
@@ -31,5 +36,3 @@ package database/ldb
 * Sync
 * RollbackClose
 * Close
-* OpenDB
-* CreateDB
