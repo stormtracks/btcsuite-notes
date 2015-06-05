@@ -32,7 +32,6 @@ in the individual files
 
 * InsertBlock
 * DropAfterBlockBySha
-
 * Sync
 * RollbackClose
 * Close
