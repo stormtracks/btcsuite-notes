@@ -3,9 +3,9 @@
 
 the following stuff happens inside server.go
 
-* peerHandler {addressManager, blockManager}
+* addrIndexer
+* cpuMiner
 * listenHandler
+* peerHandler {addressManager, blockManager}
 * rebroadcastHandler
 * rpcServer
-* cpuMiner
-* addrIndexer
