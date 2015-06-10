@@ -10,3 +10,7 @@ https://github.com/btcsuite/btclog
 Out of the box the following subsystem loggers are turned on by default:
 
 {AMGR, BMGR, BTCD, DISC, RPCS, SRVR}
+
+see **config.go** for more details on logging
+
+stay tuned as I will add more info on how to set subsystem loggers
