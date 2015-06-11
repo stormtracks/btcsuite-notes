@@ -1,3 +1,10 @@
+
+
+#### handleAddPeerMsg
+
+
+#### Overview 1 from code comments
+
 peer provides a bitcoin peer for handling bitcoin communications.  The
 overall data flow is split into 3 goroutines and a separate block manager.
 
