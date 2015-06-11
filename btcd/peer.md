@@ -1,6 +1,21 @@
 
 
+#### peerHandler
+
+The peerHandler gets started in the servers Start() method,
+after this happens then other things happen.
+
+
 #### handleAddPeerMsg
+
+handleAddPeerMsg job is to start the individual peers.
+
+**handleAddPeerMsg** gets called in the servers **peerHandler** method 3 times
+
+but the only one that appears to really work most of the time and matter is the last one inside that method which is the default when one is needed and does not exist.
+
+There is another call to the **handleAddPeerMsg** inside the server's method **handleQuery**
+but I have actually not seen that one get fired off yet.
 
 
 #### Overview 1 from code comments
