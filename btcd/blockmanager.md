@@ -1,5 +1,5 @@
 
-#### blockHandler and b.msgChan
+#### blockHandler and msgChan
 
 Everything gets placed on the **msgChan** and processed by the **blockHandler**.
 
