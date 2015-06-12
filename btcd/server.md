@@ -42,6 +42,8 @@ sets up the **listenAddrs** which then get passed on to the
 func (s *server) listenHandler(listener net.Listener) {
 ```
 
-Note that listenHandler is the main listener which accepts incoming connections for the
+which eventually populates **s.listeners** via some IP4 / IP6 massaging.
+
+Note that listenHandler accepts incoming connections for the
 server.  It must be run as a goroutine.  This is how the node communicates
-with its Peers via the peer connections by setting up these connections in listenHandler.
+with its Peers by setting up these connections in listenHandler.
