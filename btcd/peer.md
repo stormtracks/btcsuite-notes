@@ -5,6 +5,15 @@
 The peerHandler gets started in the servers Start() method,
 after this happens then other things happen.
 
+#### To turn off the peer handler
+
+Start up btcd with this command, this will allow you to talk to btcd
+via the rpc commands but not worry about it running and getting more
+data from the peers
+
+```
+alias rbgono='./bin/btcd -u rpcuser -P rpcpass --maxpeers=0'
+```
 
 #### handleAddPeerMsg
 
